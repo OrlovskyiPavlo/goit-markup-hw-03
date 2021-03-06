@@ -244,11 +244,11 @@ a:visited {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.employee {
+.employee-list {
   display: flex;
   justify-content: space-between;
 }
-.employee li:last-child {
+.employee-list li:last-child {
   margin-right: 0;
 }
 .employee-card {
@@ -258,10 +258,11 @@ a:visited {
 .group h2 {
   margin-bottom: 50px;
 }
-.employee-card > li {
-  background-color: white;
+.employee-list > li {
+  background-color: #ffffff;
   width: 270px;
   box-shadow: var(--card-shadow);
+  border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
